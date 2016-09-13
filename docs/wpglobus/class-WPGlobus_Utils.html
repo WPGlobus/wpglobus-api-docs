@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>Class WPGlobus_Utils | WPGlobus</title>
+
+	<link rel="stylesheet" href="resources/style.css?e99947befd7bf673c6b43ff75e9e0f170c88a60e">
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+				<h3>Packages</h3>
+			<ul>
+				<li>
+					<a href="package-WPGlobus.html">
+						WPGlobus<span></span>
+					</a>
+
+						<ul>
+				<li>
+					<a href="package-WPGlobus.ACF.html">
+						ACF					</a>
+
+						</li>
+				<li>
+					<a href="package-WPGlobus.Admin.html">
+						Admin<span></span>
+					</a>
+
+						<ul>
+				<li>
+					<a href="package-WPGlobus.Admin.Customizer.html">
+						Customizer					</a>
+
+						</li>
+				<li>
+					<a href="package-WPGlobus.Admin.Options.html">
+						Options<span></span>
+					</a>
+
+						<ul>
+				<li>
+					<a href="package-WPGlobus.Admin.Options.Field.html">
+						Field					</a>
+
+						</li>
+							</ul></li></ul></li>
+				<li>
+					<a href="package-WPGlobus.All.in.One.SEO.html">
+						All-in-One-SEO					</a>
+
+						</li>
+				<li>
+					<a href="package-WPGlobus.MailChimp.html">
+						MailChimp					</a>
+
+						</li>
+				<li>
+					<a href="package-WPGlobus.RevSlider.html">
+						RevSlider					</a>
+
+						</li>
+				<li>
+					<a href="package-WPGlobus.The.Events.Calendar.html">
+						The-Events-Calendar					</a>
+
+						</li>
+				<li>
+					<a href="package-WPGlobus.Yoast.html">
+						Yoast					</a>
+
+						</li>
+							</ul></li>
+			</ul>
+		</div>
+
+		<hr>
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-WPGlobus.html">WPGlobus</a></li>
+				<li><a href="class-WPGlobus_Config.html">WPGlobus_Config</a></li>
+				<li><a href="class-WPGlobus_Core.html">WPGlobus_Core</a></li>
+				<li><a href="class-WPGlobus_Filters.html">WPGlobus_Filters</a></li>
+				<li><a href="class-WPGlobus_Plugin.html">WPGlobus_Plugin</a></li>
+				<li class="active"><a href="class-WPGlobus_Utils.html">WPGlobus_Utils</a></li>
+				<li><a href="class-WPGlobus_WP.html">WPGlobus_WP</a></li>
+				<li><a href="class-WPGlobusWidget.html">WPGlobusWidget</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="">
+		<input type="hidden" name="ie" value="UTF-8">
+		<input type="text" name="q" class="text" placeholder="Search">
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+<span>Package</span>			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class WPGlobus_Utils</h1>
+
+
+	<div class="description">
+	<p>Class WPGlobus_Utils</p>
+	</div>
+
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		
+		<b>Package:</b> <a href="package-WPGlobus.html">WPGlobus</a><br>
+
+			<b>Located at</b> includes/class-wpglobus-utils.php		<br>
+	</div>
+
+
+
+	<table class="summary methods" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="localize_url" id="_localize_url">
+
+		<td class="attributes"><code>
+			 public static
+
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_localize_url">#</a>
+		<code>localize_url( <span>string <var>$url</var> = <span class="php-quote">''</span></span>, <span>string <var>$language</var> = <span class="php-quote">''</span></span>, <span><code><a href="class-WPGlobus_Config.html">WPGlobus_Config</a></code> <var>$config</var> = <span class="php-keyword1">null</span> </span> )</code>
+
+		<div class="description short">
+			<p>Localize URL by inserting language prefix</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Localize URL by inserting language prefix</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$url</var></dt>
+					<dd>URL to localize</dd>
+					<dt><var>$language</var></dt>
+					<dd>Language code</dd>
+					<dt><var>$config</var></dt>
+					<dd>Alternative configuration (i.e. Unit Test mock object)</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					string
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="extract_language_from_url" id="_extract_language_from_url">
+
+		<td class="attributes"><code>
+			 public static
+
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_extract_language_from_url">#</a>
+		<code>extract_language_from_url( <span>string <var>$url</var> = <span class="php-quote">''</span></span>, <span><code><a href="class-WPGlobus_Config.html">WPGlobus_Config</a></code> <var>$config</var> = <span class="php-keyword1">null</span> </span> )</code>
+
+		<div class="description short">
+			<p>Extract language from URL
+http://example.com/ru/page/ returns 'ru'</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Extract language from URL
+http://example.com/ru/page/ returns 'ru'</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$url</var></dt>
+					<dd></dd>
+					<dt><var>$config</var></dt>
+					<dd>Alternative configuration (i.e. Unit Test mock object)</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					string
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="is_function_in_backtrace" id="_is_function_in_backtrace">
+
+		<td class="attributes"><code>
+			 public static
+
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_is_function_in_backtrace">#</a>
+		<code>is_function_in_backtrace( <span>string <var>$function_name</var></span> )</code>
+
+		<div class="description short">
+			<p>Check if was called by a specific function (could be any levels deep).
+Note: does not check if the function is in a class method.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Check if was called by a specific function (could be any levels deep).
+Note: does not check if the function is in a class method.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$function_name</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					boolean
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="domain_tld" id="_domain_tld">
+
+		<td class="attributes"><code>
+			 public static
+
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_domain_tld">#</a>
+		<code>domain_tld( <span>string <var>$url</var></span> )</code>
+
+		<div class="description short">
+			<p>Strip the prefix from the host name
+http://www.example.com becomes example.com</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Strip the prefix from the host name
+http://www.example.com becomes example.com</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$url</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					string
+				</div>
+
+
+				<h4>Since</h4>
+				<div class="list">
+						1.0.12<br>
+				</div>
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="build_multilingual_string" id="_build_multilingual_string">
+
+		<td class="attributes"><code>
+			 public static
+
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_build_multilingual_string">#</a>
+		<code>build_multilingual_string( <span>string[] <var>$translations</var></span> )</code>
+
+		<div class="description short">
+			<p>Convert array of local texts to multilingual string (with WPGlobus delimiters)</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Convert array of local texts to multilingual string (with WPGlobus delimiters)</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$translations</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					string
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="current_url" id="_current_url">
+
+		<td class="attributes"><code>
+			 public static
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_current_url">#</a>
+		<code>current_url( )</code>
+
+		<div class="description short">
+			<p>Returns the current URL.
+There is no method of getting the current URL in WordPress.
+Various snippets published on the Web use a combination of home_url and add_query_arg.
+However, none of them work when WordPress is installed in a subfolder.
+The method below looks valid. There is a theoretical chance of HTTP_HOST tampered, etc.
+However, the same line of code is used by the WordPress core,
+for example in @see wp_admin_canonical_url, so we are going to use it, too
+*
+Note that #hash is always lost because it's a client-side parameter.
+We might add it using a JavaScript call.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Returns the current URL.
+There is no method of getting the current URL in WordPress.
+Various snippets published on the Web use a combination of home_url and add_query_arg.
+However, none of them work when WordPress is installed in a subfolder.
+The method below looks valid. There is a theoretical chance of HTTP_HOST tampered, etc.
+However, the same line of code is used by the WordPress core,
+for example in @see wp_admin_canonical_url, so we are going to use it, too
+*
+Note that #hash is always lost because it's a client-side parameter.
+We might add it using a JavaScript call.</p>
+
+
+
+
+
+				<h4>Since</h4>
+				<div class="list">
+						1.1.1<br>
+				</div>
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="hreflangs" id="_hreflangs">
+
+		<td class="attributes"><code>
+			 public static
+
+			string[]
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_hreflangs">#</a>
+		<code>hreflangs( <span><code><a href="class-WPGlobus_Config.html">WPGlobus_Config</a></code> <var>$config</var> = <span class="php-keyword1">null</span> </span> )</code>
+
+		<div class="description short">
+			<p>Build hreflang metas</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Build hreflang metas</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$config</var></dt>
+					<dd>Alternative configuration (i.e. Unit Test mock object)</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					string[]<br>Array of rel-alternate link tags
+				</div>
+
+
+				<h4>Since</h4>
+				<div class="list">
+						1.1.1<br>
+				</div>
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="localize_current_url" id="_localize_current_url">
+
+		<td class="attributes"><code>
+			 public static
+
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_localize_current_url">#</a>
+		<code>localize_current_url( <span>string <var>$language</var> = <span class="php-quote">''</span></span>, <span><code><a href="class-WPGlobus_Config.html">WPGlobus_Config</a></code> <var>$config</var> = <span class="php-keyword1">null</span> </span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$language</var></dt>
+					<dd></dd>
+					<dt><var>$config</var></dt>
+					<dd>Alternative configuration (i.e. Unit Test mock object)</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					string
+				</div>
+
+
+				<h4>Since</h4>
+				<div class="list">
+						1.2.3<br>
+				</div>
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="url_wpglobus_site" id="_url_wpglobus_site">
+
+		<td class="attributes"><code>
+			 public static
+
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_url_wpglobus_site">#</a>
+		<code>url_wpglobus_site( <span><code><a href="class-WPGlobus_Config.html">WPGlobus_Config</a></code> <var>$config</var> = <span class="php-keyword1">null</span> </span> )</code>
+
+		<div class="description short">
+			<p>Localize www.wpglobus.com for use in outgoing links</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Localize www.wpglobus.com for use in outgoing links</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$config</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					string
+				</div>
+
+
+				<h4>Since</h4>
+				<div class="list">
+						1.2.6<br>
+				</div>
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="is_enabled" id="_is_enabled">
+
+		<td class="attributes"><code>
+			 public static
+
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_is_enabled">#</a>
+		<code>is_enabled( <span>string <var>$language</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$language</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					boolean
+				</div>
+
+
+				<h4>Codecoverageignore</h4>
+				<div class="list">
+						Return true if language is in array of enabled languages, otherwise false<br>
+				</div>
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="safe_get" id="_safe_get">
+
+		<td class="attributes"><code>
+			 public static
+
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_safe_get">#</a>
+		<code>safe_get( <span>string <var>$key</var></span> )</code>
+
+		<div class="description short">
+			<p>Secure access to scalars in $_GET.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Secure access to scalars in $_GET.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$key</var></dt>
+					<dd>Index ($_GET[ $key ]).</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					string<br>The value or empty string if not exists or not scalar.
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="is_open" id="_is_open" class="deprecated">
+
+		<td class="attributes"><code>
+			 public static
+
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_is_open">#</a>
+		<code>is_open( <span>string <var>$language</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+				<h4>Deprecated</h4>
+				<div class="list">
+				</div>
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$language</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					boolean
+				</div>
+
+
+				<h4>Codecoverageignore</h4>
+				<div class="list">
+						Return true if language is in array of opened languages, otherwise false<br>
+				</div>
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="starts_with" id="_starts_with" class="deprecated">
+
+		<td class="attributes"><code>
+			 public static
+
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_starts_with">#</a>
+		<code>starts_with( <span>string <var>$s</var></span>, <span>string <var>$n</var></span> )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+				<h4>Deprecated</h4>
+				<div class="list">
+				</div>
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$s</var></dt>
+					<dd></dd>
+					<dt><var>$n</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					boolean
+				</div>
+
+
+				<h4>Codecoverageignore</h4>
+				<div class="list">
+				</div>
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		WPGlobus API documentation generated by <a href="http://apigen.org">ApiGen</a>
+	</div>
+</div>
+</div>
+<script src="resources/combined.js"></script>
+<script src="elementlist.js"></script>
+</body>
+</html>
