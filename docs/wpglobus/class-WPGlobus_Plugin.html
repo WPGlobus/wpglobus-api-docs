@@ -5,83 +5,99 @@
 
 	<title>Class WPGlobus_Plugin | WPGlobus</title>
 
-	<link rel="stylesheet" href="resources/style.css?e99947befd7bf673c6b43ff75e9e0f170c88a60e">
+	<link rel="stylesheet" href="resources/bootstrap.min.css?973e37a8502921d56bc02bb55321f45b072b6f71">
+	<link rel="stylesheet" href="resources/style.css?49f43d3208c5d7e33fa16d36107a345bf11cc00d">
 
 </head>
 
 <body>
-<div id="left">
-	<div id="menu">
-		<a href="index.html" title="Overview"><span>Overview</span></a>
+	<nav id="navigation" class="navbar navbar-default navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a href="index.html" class="navbar-brand">WPGlobus</a>
+			</div>
+			<div class="collapse navbar-collapse">
 
+                <form id="search" class="navbar-form navbar-left" role="search">
+                    <input type="hidden" name="cx" value="">
+                    <input type="hidden" name="ie" value="UTF-8">
+                    <div class="form-group">
+                        <input type="text" name="q" class="search-query form-control" placeholder="Search">
+					</div>
+				</form>
+
+				<ul class="nav navbar-nav">
+					<li>
+<span>Package</span>					</li>
+					<li class="active">
+<span>Class</span>					</li>
+
+
+
+
+
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div id="left">
+	<div id="menu">
 
 		<div id="groups">
 				<h3>Packages</h3>
 			<ul>
-				<li>
-					<a href="package-WPGlobus.html">
-						WPGlobus<span></span>
-					</a>
-
-						<ul>
-				<li>
-					<a href="package-WPGlobus.ACF.html">
-						ACF					</a>
-
-						</li>
-				<li>
-					<a href="package-WPGlobus.Admin.html">
-						Admin<span></span>
-					</a>
-
-						<ul>
-				<li>
-					<a href="package-WPGlobus.Admin.Customizer.html">
-						Customizer					</a>
-
-						</li>
-				<li>
-					<a href="package-WPGlobus.Admin.Options.html">
-						Options<span></span>
-					</a>
-
-						<ul>
-				<li>
-					<a href="package-WPGlobus.Admin.Options.Field.html">
-						Field					</a>
-
-						</li>
-							</ul></li></ul></li>
-				<li>
-					<a href="package-WPGlobus.All.in.One.SEO.html">
-						All-in-One-SEO					</a>
-
-						</li>
-				<li>
-					<a href="package-WPGlobus.MailChimp.html">
-						MailChimp					</a>
-
-						</li>
-				<li>
-					<a href="package-WPGlobus.RevSlider.html">
-						RevSlider					</a>
-
-						</li>
-				<li>
-					<a href="package-WPGlobus.The.Events.Calendar.html">
-						The-Events-Calendar					</a>
-
-						</li>
-				<li>
-					<a href="package-WPGlobus.Yoast.html">
-						Yoast					</a>
-
-						</li>
-							</ul></li>
+					<li>
+						<a href="package-WPGlobus.html">
+							WPGlobus<span></span>
+						</a>
+							<ul>
+					<li>
+						<a href="package-WPGlobus.ACF.html">
+							ACF						</a>
+							</li>
+					<li>
+						<a href="package-WPGlobus.Admin.html">
+							Admin<span></span>
+						</a>
+							<ul>
+					<li>
+						<a href="package-WPGlobus.Admin.Customizer.html">
+							Customizer						</a>
+							</li>
+					<li>
+						<a href="package-WPGlobus.Admin.Options.html">
+							Options<span></span>
+						</a>
+							<ul>
+					<li>
+						<a href="package-WPGlobus.Admin.Options.Field.html">
+							Field						</a>
+							</li>
+								</ul></li></ul></li>
+					<li>
+						<a href="package-WPGlobus.All.in.One.SEO.html">
+							All-in-One-SEO						</a>
+							</li>
+					<li>
+						<a href="package-WPGlobus.MailChimp.html">
+							MailChimp						</a>
+							</li>
+					<li>
+						<a href="package-WPGlobus.RevSlider.html">
+							RevSlider						</a>
+							</li>
+					<li>
+						<a href="package-WPGlobus.The.Events.Calendar.html">
+							The-Events-Calendar						</a>
+							</li>
+					<li>
+						<a href="package-WPGlobus.Yoast.html">
+							Yoast						</a>
+							</li>
+								</ul></li>
 			</ul>
 		</div>
-
-		<hr>
 
 
 		<div id="elements">
@@ -108,29 +124,7 @@
 <div id="splitter"></div>
 
 <div id="right">
-<div id="rightInner">
-	<form id="search">
-		<input type="hidden" name="cx" value="">
-		<input type="hidden" name="ie" value="UTF-8">
-		<input type="text" name="q" class="text" placeholder="Search">
-	</form>
-
-	<div id="navigation">
-		<ul>
-			<li>
-				<a href="index.html" title="Overview"><span>Overview</span></a>
-			</li>
-			<li>
-<span>Package</span>			</li>
-			<li class="active">
-<span>Class</span>			</li>
-		</ul>
-		<ul>
-		</ul>
-		<ul>
-		</ul>
-	</div>
-
+	<div id="rightInner">
 <div id="content" class="class">
 	<h1>Class WPGlobus_Plugin</h1>
 
@@ -147,7 +141,7 @@
 
 
 
-	<div class="info">
+	<div class="alert alert-info">
 		<b>Abstract</b><br>
 		
 		
@@ -158,64 +152,63 @@
 
 
 
-	<table class="summary methods" id="methods">
-	<caption>Methods summary</caption>
-	<tr data-order="__construct" id="___construct">
+		<div class="panel panel-default">
+			<div class="panel-heading"><h2>Methods summary</h2></div>
+			<table class="summary table table-bordered table-striped methods" id="methods">
+		<tr data-order="__construct" id="___construct">
 
-		<td class="attributes"><code>
-			 public 
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
 
-			
-			
-			</code>
-		</td>
+			<td class="name"><div>
+			<a class="anchor" href="#___construct">#</a>
+			<code>__construct( <span>string <var>$the__file__</var></span> )</code>
 
-		<td class="name"><div>
-		<a class="anchor" href="#___construct">#</a>
-		<code>__construct( <span>string <var>$the__file__</var></span> )</code>
+			<div class="description short">
+				<p>Constructor.</p>
+			</div>
 
-		<div class="description short">
-			<p>Constructor.</p>
-		</div>
-
-		<div class="description detailed hidden">
-			<p>Constructor.</p>
-
-
-				<h4>Parameters</h4>
-				<div class="list"><dl>
-					<dt><var>$the__file__</var></dt>
-					<dd>Pass <code>__FILE__</code> from the loader.</dd>
-				</dl></div>
+			<div class="description detailed hidden">
+				<p>Constructor.</p>
 
 
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$the__file__</var></dt>
+						<dd>Pass <code>__FILE__</code> from the loader.</dd>
+					</dl></div>
 
 
 
-		</div>
-		</div></td>
-	</tr>
-	<tr data-order="setup_updater" id="_setup_updater">
 
-		<td class="attributes"><code>
-			 public 
 
-			
-			
-			</code>
-		</td>
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="setup_updater" id="_setup_updater">
 
-		<td class="name"><div>
-		<a class="anchor" href="#_setup_updater">#</a>
-		<code>setup_updater( )</code>
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
 
-		<div class="description short">
-			<p>Setup updater.
+			<td class="name"><div>
+			<a class="anchor" href="#_setup_updater">#</a>
+			<code>setup_updater( )</code>
+
+			<div class="description short">
+				<p>Setup updater.
 All parameters must be set by the child class' constructor.</p>
-		</div>
+			</div>
 
-		<div class="description detailed hidden">
-			<p>Setup updater.
+			<div class="description detailed hidden">
+				<p>Setup updater.
 All parameters must be set by the child class' constructor.</p>
 
 
@@ -224,30 +217,29 @@ All parameters must be set by the child class' constructor.</p>
 
 
 
-		</div>
-		</div></td>
-	</tr>
-	<tr data-order="load_translations" id="_load_translations">
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="load_translations" id="_load_translations">
 
-		<td class="attributes"><code>
-			 public 
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
 
-			
-			
-			</code>
-		</td>
+			<td class="name"><div>
+			<a class="anchor" href="#_load_translations">#</a>
+			<code>load_translations( )</code>
 
-		<td class="name"><div>
-		<a class="anchor" href="#_load_translations">#</a>
-		<code>load_translations( )</code>
-
-		<div class="description short">
-			<p>Load PO/MO.
+			<div class="description short">
+				<p>Load PO/MO.
 The parameter must be set by the child class' constructor.</p>
-		</div>
+			</div>
 
-		<div class="description detailed hidden">
-			<p>Load PO/MO.
+			<div class="description detailed hidden">
+				<p>Load PO/MO.
 The parameter must be set by the child class' constructor.</p>
 
 
@@ -256,10 +248,11 @@ The parameter must be set by the child class' constructor.</p>
 
 
 
+			</div>
+			</div></td>
+		</tr>
+			</table>
 		</div>
-		</div></td>
-	</tr>
-	</table>
 
 
 
@@ -271,154 +264,155 @@ The parameter must be set by the child class' constructor.</p>
 
 
 
+		<div class="panel panel-default">
+            <div class="panel-heading"><h2>Properties summary</h2></div>
+			<table class="summary table table-bordered table-striped properties" id="properties">
+		<tr data-order="plugin_file" id="$plugin_file">
+			<td class="attributes"><code>
+				public  
+				string
+			</code></td>
 
-	<table class="summary properties" id="properties">
-	<caption>Properties summary</caption>
-	<tr data-order="plugin_file" id="$plugin_file">
-		<td class="attributes"><code>
-			public  
-			string
-		</code></td>
-
-		<td class="name">
+			<td class="name">
 <var>$plugin_file</var>
-			<div class="description short">
-				<p><code>__FILE__</code> from the loader.</p>
-			</div>
+				<div class="description short">
+					<p><code>__FILE__</code> from the loader.</p>
+				</div>
 
-			<div class="description detailed hidden">
-				<p><code>__FILE__</code> from the loader.</p>
+				<div class="description detailed hidden">
+					<p><code>__FILE__</code> from the loader.</p>
 
-			</div>
-		</td>
-		<td class="value">
-			<div>
-				<a href="#$plugin_file" class="anchor">#</a>
-				<code><span class="php-quote">''</span></code>
-			</div>
-		</td>
-	</tr>
-	<tr data-order="plugin_basename" id="$plugin_basename">
-		<td class="attributes"><code>
-			public  
-			string
-		</code></td>
+				</div>
+			</td>
+			<td class="value">
+				<div>
+					<a href="#$plugin_file" class="anchor">#</a>
+					<code><span class="php-quote">''</span></code>
+				</div>
+			</td>
+		</tr>
+		<tr data-order="plugin_basename" id="$plugin_basename">
+			<td class="attributes"><code>
+				public  
+				string
+			</code></td>
 
-		<td class="name">
+			<td class="name">
 <var>$plugin_basename</var>
-			<div class="description short">
-				<p>Basename from <code>__FILE__</code>.</p>
-			</div>
+				<div class="description short">
+					<p>Basename from <code>__FILE__</code>.</p>
+				</div>
 
-			<div class="description detailed hidden">
-				<p>Basename from <code>__FILE__</code>.</p>
+				<div class="description detailed hidden">
+					<p>Basename from <code>__FILE__</code>.</p>
 
-			</div>
-		</td>
-		<td class="value">
-			<div>
-				<a href="#$plugin_basename" class="anchor">#</a>
-				<code><span class="php-quote">''</span></code>
-			</div>
-		</td>
-	</tr>
-	<tr data-order="plugin_dir_url" id="$plugin_dir_url">
-		<td class="attributes"><code>
-			public  
-			string
-		</code></td>
+				</div>
+			</td>
+			<td class="value">
+				<div>
+					<a href="#$plugin_basename" class="anchor">#</a>
+					<code><span class="php-quote">''</span></code>
+				</div>
+			</td>
+		</tr>
+		<tr data-order="plugin_dir_url" id="$plugin_dir_url">
+			<td class="attributes"><code>
+				public  
+				string
+			</code></td>
 
-		<td class="name">
+			<td class="name">
 <var>$plugin_dir_url</var>
-			<div class="description short">
-				<p>Plugin directory URL. Initialized by the constructor.</p>
-			</div>
+				<div class="description short">
+					<p>Plugin directory URL. Initialized by the constructor.</p>
+				</div>
 
-			<div class="description detailed hidden">
-				<p>Plugin directory URL. Initialized by the constructor.</p>
+				<div class="description detailed hidden">
+					<p>Plugin directory URL. Initialized by the constructor.</p>
 
-			</div>
-		</td>
-		<td class="value">
-			<div>
-				<a href="#$plugin_dir_url" class="anchor">#</a>
-				<code><span class="php-quote">''</span></code>
-			</div>
-		</td>
-	</tr>
-	<tr data-order="product_slug" id="$product_slug">
-		<td class="attributes"><code>
-			protected  
-			string
-		</code></td>
+				</div>
+			</td>
+			<td class="value">
+				<div>
+					<a href="#$plugin_dir_url" class="anchor">#</a>
+					<code><span class="php-quote">''</span></code>
+				</div>
+			</td>
+		</tr>
+		<tr data-order="product_slug" id="$product_slug">
+			<td class="attributes"><code>
+				protected  
+				string
+			</code></td>
 
-		<td class="name">
+			<td class="name">
 <var>$product_slug</var>
-			<div class="description short">
-				<p>Parameter for the updater: slug of the product URL.</p>
-			</div>
+				<div class="description short">
+					<p>Parameter for the updater: slug of the product URL.</p>
+				</div>
 
-			<div class="description detailed hidden">
-				<p>Parameter for the updater: slug of the product URL.</p>
+				<div class="description detailed hidden">
+					<p>Parameter for the updater: slug of the product URL.</p>
 
-			</div>
-		</td>
-		<td class="value">
-			<div>
-				<a href="#$product_slug" class="anchor">#</a>
-				<code><span class="php-quote">''</span></code>
-			</div>
-		</td>
-	</tr>
-	<tr data-order="product_id" id="$product_id">
-		<td class="attributes"><code>
-			protected  
-			string
-		</code></td>
+				</div>
+			</td>
+			<td class="value">
+				<div>
+					<a href="#$product_slug" class="anchor">#</a>
+					<code><span class="php-quote">''</span></code>
+				</div>
+			</td>
+		</tr>
+		<tr data-order="product_id" id="$product_id">
+			<td class="attributes"><code>
+				protected  
+				string
+			</code></td>
 
-		<td class="name">
+			<td class="name">
 <var>$product_id</var>
-			<div class="description short">
-				<p>Parameter for the updater: product ID (name).</p>
-			</div>
+				<div class="description short">
+					<p>Parameter for the updater: product ID (name).</p>
+				</div>
 
-			<div class="description detailed hidden">
-				<p>Parameter for the updater: product ID (name).</p>
+				<div class="description detailed hidden">
+					<p>Parameter for the updater: product ID (name).</p>
 
-			</div>
-		</td>
-		<td class="value">
-			<div>
-				<a href="#$product_id" class="anchor">#</a>
-				<code><span class="php-quote">''</span></code>
-			</div>
-		</td>
-	</tr>
-	<tr data-order="textdomain" id="$textdomain">
-		<td class="attributes"><code>
-			protected  
-			string
-		</code></td>
+				</div>
+			</td>
+			<td class="value">
+				<div>
+					<a href="#$product_id" class="anchor">#</a>
+					<code><span class="php-quote">''</span></code>
+				</div>
+			</td>
+		</tr>
+		<tr data-order="textdomain" id="$textdomain">
+			<td class="attributes"><code>
+				protected  
+				string
+			</code></td>
 
-		<td class="name">
+			<td class="name">
 <var>$textdomain</var>
-			<div class="description short">
-				<p>Used in the <code>load_textdomain</code> call.</p>
-			</div>
+				<div class="description short">
+					<p>Used in the <code>load_textdomain</code> call.</p>
+				</div>
 
-			<div class="description detailed hidden">
-				<p>Used in the <code>load_textdomain</code> call.</p>
+				<div class="description detailed hidden">
+					<p>Used in the <code>load_textdomain</code> call.</p>
 
-			</div>
-		</td>
-		<td class="value">
-			<div>
-				<a href="#$textdomain" class="anchor">#</a>
-				<code><span class="php-quote">''</span></code>
-			</div>
-		</td>
-	</tr>
-	</table>
+				</div>
+			</td>
+			<td class="value">
+				<div>
+					<a href="#$textdomain" class="anchor">#</a>
+					<code><span class="php-quote">''</span></code>
+				</div>
+			</td>
+		</tr>
+			</table>
+		</div>
 
 
 
@@ -426,11 +420,11 @@ The parameter must be set by the child class' constructor.</p>
 
 
 </div>
+	</div>
 
 	<div id="footer">
 		WPGlobus API documentation generated by <a href="http://apigen.org">ApiGen</a>
 	</div>
-</div>
 </div>
 <script src="resources/combined.js"></script>
 <script src="elementlist.js"></script>

@@ -5,83 +5,99 @@
 
 	<title>Class WPGlobus_Config | WPGlobus</title>
 
-	<link rel="stylesheet" href="resources/style.css?e99947befd7bf673c6b43ff75e9e0f170c88a60e">
+	<link rel="stylesheet" href="resources/bootstrap.min.css?973e37a8502921d56bc02bb55321f45b072b6f71">
+	<link rel="stylesheet" href="resources/style.css?49f43d3208c5d7e33fa16d36107a345bf11cc00d">
 
 </head>
 
 <body>
-<div id="left">
-	<div id="menu">
-		<a href="index.html" title="Overview"><span>Overview</span></a>
+	<nav id="navigation" class="navbar navbar-default navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a href="index.html" class="navbar-brand">WPGlobus</a>
+			</div>
+			<div class="collapse navbar-collapse">
 
+                <form id="search" class="navbar-form navbar-left" role="search">
+                    <input type="hidden" name="cx" value="">
+                    <input type="hidden" name="ie" value="UTF-8">
+                    <div class="form-group">
+                        <input type="text" name="q" class="search-query form-control" placeholder="Search">
+					</div>
+				</form>
+
+				<ul class="nav navbar-nav">
+					<li>
+<span>Package</span>					</li>
+					<li class="active">
+<span>Class</span>					</li>
+
+
+
+
+
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div id="left">
+	<div id="menu">
 
 		<div id="groups">
 				<h3>Packages</h3>
 			<ul>
-				<li>
-					<a href="package-WPGlobus.html">
-						WPGlobus<span></span>
-					</a>
-
-						<ul>
-				<li>
-					<a href="package-WPGlobus.ACF.html">
-						ACF					</a>
-
-						</li>
-				<li>
-					<a href="package-WPGlobus.Admin.html">
-						Admin<span></span>
-					</a>
-
-						<ul>
-				<li>
-					<a href="package-WPGlobus.Admin.Customizer.html">
-						Customizer					</a>
-
-						</li>
-				<li>
-					<a href="package-WPGlobus.Admin.Options.html">
-						Options<span></span>
-					</a>
-
-						<ul>
-				<li>
-					<a href="package-WPGlobus.Admin.Options.Field.html">
-						Field					</a>
-
-						</li>
-							</ul></li></ul></li>
-				<li>
-					<a href="package-WPGlobus.All.in.One.SEO.html">
-						All-in-One-SEO					</a>
-
-						</li>
-				<li>
-					<a href="package-WPGlobus.MailChimp.html">
-						MailChimp					</a>
-
-						</li>
-				<li>
-					<a href="package-WPGlobus.RevSlider.html">
-						RevSlider					</a>
-
-						</li>
-				<li>
-					<a href="package-WPGlobus.The.Events.Calendar.html">
-						The-Events-Calendar					</a>
-
-						</li>
-				<li>
-					<a href="package-WPGlobus.Yoast.html">
-						Yoast					</a>
-
-						</li>
-							</ul></li>
+					<li>
+						<a href="package-WPGlobus.html">
+							WPGlobus<span></span>
+						</a>
+							<ul>
+					<li>
+						<a href="package-WPGlobus.ACF.html">
+							ACF						</a>
+							</li>
+					<li>
+						<a href="package-WPGlobus.Admin.html">
+							Admin<span></span>
+						</a>
+							<ul>
+					<li>
+						<a href="package-WPGlobus.Admin.Customizer.html">
+							Customizer						</a>
+							</li>
+					<li>
+						<a href="package-WPGlobus.Admin.Options.html">
+							Options<span></span>
+						</a>
+							<ul>
+					<li>
+						<a href="package-WPGlobus.Admin.Options.Field.html">
+							Field						</a>
+							</li>
+								</ul></li></ul></li>
+					<li>
+						<a href="package-WPGlobus.All.in.One.SEO.html">
+							All-in-One-SEO						</a>
+							</li>
+					<li>
+						<a href="package-WPGlobus.MailChimp.html">
+							MailChimp						</a>
+							</li>
+					<li>
+						<a href="package-WPGlobus.RevSlider.html">
+							RevSlider						</a>
+							</li>
+					<li>
+						<a href="package-WPGlobus.The.Events.Calendar.html">
+							The-Events-Calendar						</a>
+							</li>
+					<li>
+						<a href="package-WPGlobus.Yoast.html">
+							Yoast						</a>
+							</li>
+								</ul></li>
 			</ul>
 		</div>
-
-		<hr>
 
 
 		<div id="elements">
@@ -108,29 +124,7 @@
 <div id="splitter"></div>
 
 <div id="right">
-<div id="rightInner">
-	<form id="search">
-		<input type="hidden" name="cx" value="">
-		<input type="hidden" name="ie" value="UTF-8">
-		<input type="text" name="q" class="text" placeholder="Search">
-	</form>
-
-	<div id="navigation">
-		<ul>
-			<li>
-				<a href="index.html" title="Overview"><span>Overview</span></a>
-			</li>
-			<li>
-<span>Package</span>			</li>
-			<li class="active">
-<span>Class</span>			</li>
-		</ul>
-		<ul>
-		</ul>
-		<ul>
-		</ul>
-	</div>
-
+	<div id="rightInner">
 <div id="content" class="class">
 	<h1>Class WPGlobus_Config</h1>
 
@@ -147,7 +141,7 @@
 
 
 
-	<div class="info">
+	<div class="alert alert-info">
 		
 		
 		
@@ -158,28 +152,339 @@
 
 
 
-	<table class="summary methods" id="methods">
-	<caption>Methods summary</caption>
-	<tr data-order="__construct" id="___construct">
+		<div class="panel panel-default">
+			<div class="panel-heading"><h2>Methods summary</h2></div>
+			<table class="summary table table-bordered table-striped methods" id="methods">
+		<tr data-order="__construct" id="___construct">
 
-		<td class="attributes"><code>
-			 public 
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
 
-			
-			
-			</code>
-		</td>
+			<td class="name"><div>
+			<a class="anchor" href="#___construct">#</a>
+			<code>__construct( )</code>
 
-		<td class="name"><div>
-		<a class="anchor" href="#___construct">#</a>
-		<code>__construct( )</code>
+			<div class="description short">
+				<p>Constructor</p>
+			</div>
 
-		<div class="description short">
-			<p>Constructor</p>
+			<div class="description detailed hidden">
+				<p>Constructor</p>
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="init_current_language" id="_init_current_language">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_init_current_language">#</a>
+			<code>init_current_language( )</code>
+
+			<div class="description short">
+				<p>Set the current language: if not found in the URL or REFERER, then keep the default</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Set the current language: if not found in the URL or REFERER, then keep the default</p>
+
+
+
+
+
+					<h4>Since</h4>
+					<div class="list">
+							1.1.1<br>
+					</div>
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="on_activate" id="_on_activate">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_on_activate">#</a>
+			<code>on_activate( <span>stdClass <var>$object</var> = <span class="php-keyword1">null</span></span>, <span>array <var>$options</var> = <span class="php-keyword1">array</span>() </span> )</code>
+
+			<div class="description short">
+				<p>Check plugin version and update versioning option</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Check plugin version and update versioning option</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$object</var></dt>
+						<dd>Plugin_Upgrader</dd>
+						<dt><var>$options</var></dt>
+						<dd></dd>
+					</dl></div>
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="set_language" id="_set_language">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_set_language">#</a>
+			<code>set_language( <span>string <var>$locale</var></span> )</code>
+
+			<div class="description short">
+				<p>Set current language</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Set current language</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$locale</var></dt>
+						<dd></dd>
+					</dl></div>
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="is_enabled_locale" id="_is_enabled_locale">
+
+			<td class="attributes"><code>
+				 public 
+				boolean
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_is_enabled_locale">#</a>
+			<code>is_enabled_locale( <span>string <var>$locale</var></span> )</code>
+
+			<div class="description short">
+				<p>Check for enabled locale</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Check for enabled locale</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$locale</var></dt>
+						<dd></dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						boolean
+					</div>
+
+
+					<h4>Since</h4>
+					<div class="list">
+							1.0.10<br>
+					</div>
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="on_load_textdomain" id="_on_load_textdomain">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_on_load_textdomain">#</a>
+			<code>on_load_textdomain( )</code>
+
+			<div class="description short">
+				<p>Load textdomain</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Load textdomain</p>
+
+
+
+
+
+					<h4>Since</h4>
+					<div class="list">
+							1.0.0<br>
+					</div>
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="_set_flags_url" id="__set_flags_url">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#__set_flags_url">#</a>
+			<code>_set_flags_url( )</code>
+
+			<div class="description short">
+				<p>Set flags URL</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Set flags URL</p>
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="_set_languages" id="__set_languages">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#__set_languages">#</a>
+			<code>_set_languages( )</code>
+
+			<div class="description short">
+				<p>Set languages by default</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Set languages by default</p>
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="_init_language_table" id="__init_language_table">
+
+			<td class="attributes"><code>
+				 protected 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#__init_language_table">#</a>
+			<code>_init_language_table( )</code>
+
+			<div class="description short">
+				<p>Initialize the language table with the hard-coded names, locales and flags.</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Initialize the language table with the hard-coded names, locales and flags.</p>
+
+
+
+
+
+					<h4>See</h4>
+					<div class="list">
+							_set_languages For the hard-coded table.<br>
+					</div>
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="_get_options" id="__get_options">
+
+			<td class="attributes"><code>
+				 protected 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#__get_options">#</a>
+			<code>_get_options( )</code>
+
+			<div class="description short">
+				<p>Get options from DB and wp-config.php</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Get options from DB and wp-config.php</p>
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+			</table>
 		</div>
 
-		<div class="description detailed hidden">
-			<p>Constructor</p>
 
 
 
@@ -187,1002 +492,684 @@
 
 
 
-		</div>
-		</div></td>
-	</tr>
-	<tr data-order="init_current_language" id="_init_current_language">
 
-		<td class="attributes"><code>
-			 public 
 
-			
-			
-			</code>
-		</td>
 
-		<td class="name"><div>
-		<a class="anchor" href="#_init_current_language">#</a>
-		<code>init_current_language( )</code>
+		<div class="panel panel-default">
+            <div class="panel-heading"><h2>Properties summary</h2></div>
+			<table class="summary table table-bordered table-striped properties" id="properties">
+		<tr data-order="default_language" id="$default_language">
+			<td class="attributes"><code>
+				public  
+				string
+			</code></td>
 
-		<div class="description short">
-			<p>Set the current language: if not found in the URL or REFERER, then keep the default</p>
-		</div>
-
-		<div class="description detailed hidden">
-			<p>Set the current language: if not found in the URL or REFERER, then keep the default</p>
-
-
-
-
-
-				<h4>Since</h4>
-				<div class="list">
-						1.1.1<br>
-				</div>
-
-
-		</div>
-		</div></td>
-	</tr>
-	<tr data-order="on_activate" id="_on_activate">
-
-		<td class="attributes"><code>
-			 public 
-
-			
-			
-			</code>
-		</td>
-
-		<td class="name"><div>
-		<a class="anchor" href="#_on_activate">#</a>
-		<code>on_activate( <span>stdClass <var>$object</var> = <span class="php-keyword1">null</span></span>, <span>array <var>$options</var> = <span class="php-keyword1">array</span>() </span> )</code>
-
-		<div class="description short">
-			<p>Check plugin version and update versioning option</p>
-		</div>
-
-		<div class="description detailed hidden">
-			<p>Check plugin version and update versioning option</p>
-
-
-				<h4>Parameters</h4>
-				<div class="list"><dl>
-					<dt><var>$object</var></dt>
-					<dd>Plugin_Upgrader</dd>
-					<dt><var>$options</var></dt>
-					<dd></dd>
-				</dl></div>
-
-
-
-
-
-		</div>
-		</div></td>
-	</tr>
-	<tr data-order="set_language" id="_set_language">
-
-		<td class="attributes"><code>
-			 public 
-
-			
-			
-			</code>
-		</td>
-
-		<td class="name"><div>
-		<a class="anchor" href="#_set_language">#</a>
-		<code>set_language( <span>string <var>$locale</var></span> )</code>
-
-		<div class="description short">
-			<p>Set current language</p>
-		</div>
-
-		<div class="description detailed hidden">
-			<p>Set current language</p>
-
-
-				<h4>Parameters</h4>
-				<div class="list"><dl>
-					<dt><var>$locale</var></dt>
-					<dd></dd>
-				</dl></div>
-
-
-
-
-
-		</div>
-		</div></td>
-	</tr>
-	<tr data-order="is_enabled_locale" id="_is_enabled_locale">
-
-		<td class="attributes"><code>
-			 public 
-
-			boolean
-			
-			</code>
-		</td>
-
-		<td class="name"><div>
-		<a class="anchor" href="#_is_enabled_locale">#</a>
-		<code>is_enabled_locale( <span>string <var>$locale</var></span> )</code>
-
-		<div class="description short">
-			<p>Check for enabled locale</p>
-		</div>
-
-		<div class="description detailed hidden">
-			<p>Check for enabled locale</p>
-
-
-				<h4>Parameters</h4>
-				<div class="list"><dl>
-					<dt><var>$locale</var></dt>
-					<dd></dd>
-				</dl></div>
-
-				<h4>Returns</h4>
-				<div class="list">
-					boolean
-				</div>
-
-
-				<h4>Since</h4>
-				<div class="list">
-						1.0.10<br>
-				</div>
-
-
-		</div>
-		</div></td>
-	</tr>
-	<tr data-order="on_load_textdomain" id="_on_load_textdomain">
-
-		<td class="attributes"><code>
-			 public 
-
-			
-			
-			</code>
-		</td>
-
-		<td class="name"><div>
-		<a class="anchor" href="#_on_load_textdomain">#</a>
-		<code>on_load_textdomain( )</code>
-
-		<div class="description short">
-			<p>Load textdomain</p>
-		</div>
-
-		<div class="description detailed hidden">
-			<p>Load textdomain</p>
-
-
-
-
-
-				<h4>Since</h4>
-				<div class="list">
-						1.0.0<br>
-				</div>
-
-
-		</div>
-		</div></td>
-	</tr>
-	<tr data-order="_set_flags_url" id="__set_flags_url">
-
-		<td class="attributes"><code>
-			 public 
-
-			
-			
-			</code>
-		</td>
-
-		<td class="name"><div>
-		<a class="anchor" href="#__set_flags_url">#</a>
-		<code>_set_flags_url( )</code>
-
-		<div class="description short">
-			<p>Set flags URL</p>
-		</div>
-
-		<div class="description detailed hidden">
-			<p>Set flags URL</p>
-
-
-
-
-
-
-
-		</div>
-		</div></td>
-	</tr>
-	<tr data-order="_set_languages" id="__set_languages">
-
-		<td class="attributes"><code>
-			 public 
-
-			
-			
-			</code>
-		</td>
-
-		<td class="name"><div>
-		<a class="anchor" href="#__set_languages">#</a>
-		<code>_set_languages( )</code>
-
-		<div class="description short">
-			<p>Set languages by default</p>
-		</div>
-
-		<div class="description detailed hidden">
-			<p>Set languages by default</p>
-
-
-
-
-
-
-
-		</div>
-		</div></td>
-	</tr>
-	<tr data-order="_init_language_table" id="__init_language_table">
-
-		<td class="attributes"><code>
-			 protected 
-
-			
-			
-			</code>
-		</td>
-
-		<td class="name"><div>
-		<a class="anchor" href="#__init_language_table">#</a>
-		<code>_init_language_table( )</code>
-
-		<div class="description short">
-			<p>Initialize the language table with the hard-coded names, locales and flags.</p>
-		</div>
-
-		<div class="description detailed hidden">
-			<p>Initialize the language table with the hard-coded names, locales and flags.</p>
-
-
-
-
-
-				<h4>See</h4>
-				<div class="list">
-						_set_languages For the hard-coded table.<br>
-				</div>
-
-
-		</div>
-		</div></td>
-	</tr>
-	<tr data-order="_get_options" id="__get_options">
-
-		<td class="attributes"><code>
-			 protected 
-
-			
-			
-			</code>
-		</td>
-
-		<td class="name"><div>
-		<a class="anchor" href="#__get_options">#</a>
-		<code>_get_options( )</code>
-
-		<div class="description short">
-			<p>Get options from DB and wp-config.php</p>
-		</div>
-
-		<div class="description detailed hidden">
-			<p>Get options from DB and wp-config.php</p>
-
-
-
-
-
-
-
-		</div>
-		</div></td>
-	</tr>
-	</table>
-
-
-
-
-
-
-
-
-
-
-
-
-	<table class="summary properties" id="properties">
-	<caption>Properties summary</caption>
-	<tr data-order="default_language" id="$default_language">
-		<td class="attributes"><code>
-			public  
-			string
-		</code></td>
-
-		<td class="name">
+			<td class="name">
 <var>$default_language</var>
-			<div class="description short">
-				<p>Language by default</p>
-			</div>
+				<div class="description short">
+					<p>Language by default</p>
+				</div>
 
-			<div class="description detailed hidden">
-				<p>Language by default</p>
+				<div class="description detailed hidden">
+					<p>Language by default</p>
 
-			</div>
-		</td>
-		<td class="value">
-			<div>
-				<a href="#$default_language" class="anchor">#</a>
-				<code><span class="php-quote">'en'</span></code>
-			</div>
-		</td>
-	</tr>
-	<tr data-order="language" id="$language">
-		<td class="attributes"><code>
-			public  
-			string
-		</code></td>
+				</div>
+			</td>
+			<td class="value">
+				<div>
+					<a href="#$default_language" class="anchor">#</a>
+					<code><span class="php-quote">'en'</span></code>
+				</div>
+			</td>
+		</tr>
+		<tr data-order="language" id="$language">
+			<td class="attributes"><code>
+				public  
+				string
+			</code></td>
 
-		<td class="name">
+			<td class="name">
 <var>$language</var>
-			<div class="description short">
-				<p>Current language. Should be set to default initially.</p>
-			</div>
+				<div class="description short">
+					<p>Current language. Should be set to default initially.</p>
+				</div>
 
-			<div class="description detailed hidden">
-				<p>Current language. Should be set to default initially.</p>
+				<div class="description detailed hidden">
+					<p>Current language. Should be set to default initially.</p>
 
-			</div>
-		</td>
-		<td class="value">
-			<div>
-				<a href="#$language" class="anchor">#</a>
-				<code><span class="php-quote">'en'</span></code>
-			</div>
-		</td>
-	</tr>
-	<tr data-order="enabled_languages" id="$enabled_languages">
-		<td class="attributes"><code>
-			public  
-			string[]
-		</code></td>
+				</div>
+			</td>
+			<td class="value">
+				<div>
+					<a href="#$language" class="anchor">#</a>
+					<code><span class="php-quote">'en'</span></code>
+				</div>
+			</td>
+		</tr>
+		<tr data-order="enabled_languages" id="$enabled_languages">
+			<td class="attributes"><code>
+				public  
+				string[]
+			</code></td>
 
-		<td class="name">
+			<td class="name">
 <var>$enabled_languages</var>
-			<div class="description short">
-				<p>Enabled languages</p>
-			</div>
+				<div class="description short">
+					<p>Enabled languages</p>
+				</div>
 
-			<div class="description detailed hidden">
-				<p>Enabled languages</p>
+				<div class="description detailed hidden">
+					<p>Enabled languages</p>
 
-			</div>
-		</td>
-		<td class="value">
-			<div>
-				<a href="#$enabled_languages" class="anchor">#</a>
-				<code><span class="php-keyword1">array</span>(
+				</div>
+			</td>
+			<td class="value">
+				<div>
+					<a href="#$enabled_languages" class="anchor">#</a>
+					<code><span class="php-keyword1">array</span>(
     <span class="php-quote">'en'</span>,
     <span class="php-quote">'es'</span>,
     <span class="php-quote">'de'</span>,
     <span class="php-quote">'fr'</span>,
     <span class="php-quote">'ru'</span>,
 )</code>
-			</div>
-		</td>
-	</tr>
-	<tr data-order="hide_default_language" id="$hide_default_language">
-		<td class="attributes"><code>
-			public  
-			boolean
-		</code></td>
+				</div>
+			</td>
+		</tr>
+		<tr data-order="hide_default_language" id="$hide_default_language">
+			<td class="attributes"><code>
+				public  
+				boolean
+			</code></td>
 
-		<td class="name">
+			<td class="name">
 <var>$hide_default_language</var>
-			<div class="description short">
-				<p>Hide from URL language by default</p>
-			</div>
+				<div class="description short">
+					<p>Hide from URL language by default</p>
+				</div>
 
-			<div class="description detailed hidden">
-				<p>Hide from URL language by default</p>
+				<div class="description detailed hidden">
+					<p>Hide from URL language by default</p>
 
-			</div>
-		</td>
-		<td class="value">
-			<div>
-				<a href="#$hide_default_language" class="anchor">#</a>
-				<code><span class="php-keyword1">true</span></code>
-			</div>
-		</td>
-	</tr>
-	<tr data-order="open_languages" id="$open_languages">
-		<td class="attributes"><code>
-			public  
-			string[]
-		</code></td>
+				</div>
+			</td>
+			<td class="value">
+				<div>
+					<a href="#$hide_default_language" class="anchor">#</a>
+					<code><span class="php-keyword1">true</span></code>
+				</div>
+			</td>
+		</tr>
+		<tr data-order="open_languages" id="$open_languages">
+			<td class="attributes"><code>
+				public  
+				string[]
+			</code></td>
 
-		<td class="name">
+			<td class="name">
 <var>$open_languages</var>
-			<div class="description short">
-				<p>Opened languages</p>
-			</div>
+				<div class="description short">
+					<p>Opened languages</p>
+				</div>
 
-			<div class="description detailed hidden">
-				<p>Opened languages</p>
+				<div class="description detailed hidden">
+					<p>Opened languages</p>
 
-			</div>
-		</td>
-		<td class="value">
-			<div>
-				<a href="#$open_languages" class="anchor">#</a>
-				<code><span class="php-keyword1">array</span>()</code>
-			</div>
-		</td>
-	</tr>
-	<tr data-order="flag" id="$flag">
-		<td class="attributes"><code>
-			public  
-			array
-		</code></td>
+				</div>
+			</td>
+			<td class="value">
+				<div>
+					<a href="#$open_languages" class="anchor">#</a>
+					<code><span class="php-keyword1">array</span>()</code>
+				</div>
+			</td>
+		</tr>
+		<tr data-order="flag" id="$flag">
+			<td class="attributes"><code>
+				public  
+				array
+			</code></td>
 
-		<td class="name">
+			<td class="name">
 <var>$flag</var>
-			<div class="description short">
-				<p>Flag images configuration
+				<div class="description short">
+					<p>Flag images configuration
 Look in /flags/ directory for a huge list of flags for usage</p>
-			</div>
+				</div>
 
-			<div class="description detailed hidden">
-				<p>Flag images configuration
+				<div class="description detailed hidden">
+					<p>Flag images configuration
 Look in /flags/ directory for a huge list of flags for usage</p>
 
-			</div>
-		</td>
-		<td class="value">
-			<div>
-				<a href="#$flag" class="anchor">#</a>
-				<code><span class="php-keyword1">array</span>()</code>
-			</div>
-		</td>
-	</tr>
-	<tr data-order="flags_url" id="$flags_url">
-		<td class="attributes"><code>
-			public  
-			string
-		</code></td>
+				</div>
+			</td>
+			<td class="value">
+				<div>
+					<a href="#$flag" class="anchor">#</a>
+					<code><span class="php-keyword1">array</span>()</code>
+				</div>
+			</td>
+		</tr>
+		<tr data-order="flags_url" id="$flags_url">
+			<td class="attributes"><code>
+				public  
+				string
+			</code></td>
 
-		<td class="name">
+			<td class="name">
 <var>$flags_url</var>
-			<div class="description short">
-				<p>Location of flags (needs trailing slash!)</p>
-			</div>
+				<div class="description short">
+					<p>Location of flags (needs trailing slash!)</p>
+				</div>
 
-			<div class="description detailed hidden">
-				<p>Location of flags (needs trailing slash!)</p>
+				<div class="description detailed hidden">
+					<p>Location of flags (needs trailing slash!)</p>
 
-			</div>
-		</td>
-		<td class="value">
-			<div>
-				<a href="#$flags_url" class="anchor">#</a>
-				<code><span class="php-quote">''</span></code>
-			</div>
-		</td>
-	</tr>
-	<tr data-order="language_name" id="$language_name">
-		<td class="attributes"><code>
-			public  
-			array
-		</code></td>
+				</div>
+			</td>
+			<td class="value">
+				<div>
+					<a href="#$flags_url" class="anchor">#</a>
+					<code><span class="php-quote">''</span></code>
+				</div>
+			</td>
+		</tr>
+		<tr data-order="language_name" id="$language_name">
+			<td class="attributes"><code>
+				public  
+				array
+			</code></td>
 
-		<td class="name">
+			<td class="name">
 <var>$language_name</var>
-			<div class="description short">
-				<p>Stores languages in pairs code=>name</p>
-			</div>
+				<div class="description short">
+					<p>Stores languages in pairs code=>name</p>
+				</div>
 
-			<div class="description detailed hidden">
-				<p>Stores languages in pairs code=>name</p>
+				<div class="description detailed hidden">
+					<p>Stores languages in pairs code=>name</p>
 
-			</div>
-		</td>
-		<td class="value">
-			<div>
-				<a href="#$language_name" class="anchor">#</a>
-				<code><span class="php-keyword1">array</span>()</code>
-			</div>
-		</td>
-	</tr>
-	<tr data-order="en_language_name" id="$en_language_name">
-		<td class="attributes"><code>
-			public  
-			array
-		</code></td>
+				</div>
+			</td>
+			<td class="value">
+				<div>
+					<a href="#$language_name" class="anchor">#</a>
+					<code><span class="php-keyword1">array</span>()</code>
+				</div>
+			</td>
+		</tr>
+		<tr data-order="en_language_name" id="$en_language_name">
+			<td class="attributes"><code>
+				public  
+				array
+			</code></td>
 
-		<td class="name">
+			<td class="name">
 <var>$en_language_name</var>
-			<div class="description short">
-				<p>Stores languages names in English</p>
-			</div>
+				<div class="description short">
+					<p>Stores languages names in English</p>
+				</div>
 
-			<div class="description detailed hidden">
-				<p>Stores languages names in English</p>
+				<div class="description detailed hidden">
+					<p>Stores languages names in English</p>
 
-			</div>
-		</td>
-		<td class="value">
-			<div>
-				<a href="#$en_language_name" class="anchor">#</a>
-				<code><span class="php-keyword1">array</span>()</code>
-			</div>
-		</td>
-	</tr>
-	<tr data-order="locale" id="$locale">
-		<td class="attributes"><code>
-			public  
-			array
-		</code></td>
+				</div>
+			</td>
+			<td class="value">
+				<div>
+					<a href="#$en_language_name" class="anchor">#</a>
+					<code><span class="php-keyword1">array</span>()</code>
+				</div>
+			</td>
+		</tr>
+		<tr data-order="locale" id="$locale">
+			<td class="attributes"><code>
+				public  
+				array
+			</code></td>
 
-		<td class="name">
+			<td class="name">
 <var>$locale</var>
-			<div class="description short">
-				<p>Stores locales</p>
-			</div>
+				<div class="description short">
+					<p>Stores locales</p>
+				</div>
 
-			<div class="description detailed hidden">
-				<p>Stores locales</p>
+				<div class="description detailed hidden">
+					<p>Stores locales</p>
 
-			</div>
-		</td>
-		<td class="value">
-			<div>
-				<a href="#$locale" class="anchor">#</a>
-				<code><span class="php-keyword1">array</span>()</code>
-			</div>
-		</td>
-	</tr>
-	<tr data-order="enabled_locale" id="$enabled_locale">
-		<td class="attributes"><code>
-			public  
-			array
-		</code></td>
+				</div>
+			</td>
+			<td class="value">
+				<div>
+					<a href="#$locale" class="anchor">#</a>
+					<code><span class="php-keyword1">array</span>()</code>
+				</div>
+			</td>
+		</tr>
+		<tr data-order="enabled_locale" id="$enabled_locale">
+			<td class="attributes"><code>
+				public  
+				array
+			</code></td>
 
-		<td class="name">
+			<td class="name">
 <var>$enabled_locale</var>
-			<div class="description short">
-				<p>Stores enabled locales</p>
-			</div>
+				<div class="description short">
+					<p>Stores enabled locales</p>
+				</div>
 
-			<div class="description detailed hidden">
-				<p>Stores enabled locales</p>
+				<div class="description detailed hidden">
+					<p>Stores enabled locales</p>
 
-					<h4>Since</h4>
-					<div class="list">
-							1.0.10<br>
-					</div>
-			</div>
-		</td>
-		<td class="value">
-			<div>
-				<a href="#$enabled_locale" class="anchor">#</a>
-				<code><span class="php-keyword1">array</span>()</code>
-			</div>
-		</td>
-	</tr>
-	<tr data-order="version" id="$version">
-		<td class="attributes"><code>
-			public  
-			array
-		</code></td>
+						<h4>Since</h4>
+						<div class="list">
+								1.0.10<br>
+						</div>
+				</div>
+			</td>
+			<td class="value">
+				<div>
+					<a href="#$enabled_locale" class="anchor">#</a>
+					<code><span class="php-keyword1">array</span>()</code>
+				</div>
+			</td>
+		</tr>
+		<tr data-order="version" id="$version">
+			<td class="attributes"><code>
+				public  
+				array
+			</code></td>
 
-		<td class="name">
+			<td class="name">
 <var>$version</var>
-			<div class="description short">
-				<p>Stores version and update from WPGlobus Mini info</p>
-			</div>
+				<div class="description short">
+					<p>Stores version and update from WPGlobus Mini info</p>
+				</div>
 
-			<div class="description detailed hidden">
-				<p>Stores version and update from WPGlobus Mini info</p>
+				<div class="description detailed hidden">
+					<p>Stores version and update from WPGlobus Mini info</p>
 
-			</div>
-		</td>
-		<td class="value">
-			<div>
-				<a href="#$version" class="anchor">#</a>
-				<code><span class="php-keyword1">array</span>()</code>
-			</div>
-		</td>
-	</tr>
-	<tr data-order="show_flag_name" id="$show_flag_name">
-		<td class="attributes"><code>
-			public  
-			string
-		</code></td>
+				</div>
+			</td>
+			<td class="value">
+				<div>
+					<a href="#$version" class="anchor">#</a>
+					<code><span class="php-keyword1">array</span>()</code>
+				</div>
+			</td>
+		</tr>
+		<tr data-order="show_flag_name" id="$show_flag_name">
+			<td class="attributes"><code>
+				public  
+				string
+			</code></td>
 
-		<td class="name">
+			<td class="name">
 <var>$show_flag_name</var>
-			<div class="description short">
-				<p>Use flag name for navigation menu : 'name' || 'code' || ''</p>
-			</div>
+				<div class="description short">
+					<p>Use flag name for navigation menu : 'name' || 'code' || ''</p>
+				</div>
 
-			<div class="description detailed hidden">
-				<p>Use flag name for navigation menu : 'name' || 'code' || ''</p>
+				<div class="description detailed hidden">
+					<p>Use flag name for navigation menu : 'name' || 'code' || ''</p>
 
-			</div>
-		</td>
-		<td class="value">
-			<div>
-				<a href="#$show_flag_name" class="anchor">#</a>
-				<code><span class="php-quote">'code'</span></code>
-			</div>
-		</td>
-	</tr>
-	<tr data-order="nav_menu" id="$nav_menu">
-		<td class="attributes"><code>
-			public  
-			string
-		</code></td>
+				</div>
+			</td>
+			<td class="value">
+				<div>
+					<a href="#$show_flag_name" class="anchor">#</a>
+					<code><span class="php-quote">'code'</span></code>
+				</div>
+			</td>
+		</tr>
+		<tr data-order="nav_menu" id="$nav_menu">
+			<td class="attributes"><code>
+				public  
+				string
+			</code></td>
 
-		<td class="name">
+			<td class="name">
 <var>$nav_menu</var>
-			<div class="description short">
-				<p>Use navigation menu by slug
+				<div class="description short">
+					<p>Use navigation menu by slug
 for use in all nav menu set value to 'all'</p>
-			</div>
+				</div>
 
-			<div class="description detailed hidden">
-				<p>Use navigation menu by slug
+				<div class="description detailed hidden">
+					<p>Use navigation menu by slug
 for use in all nav menu set value to 'all'</p>
 
-			</div>
-		</td>
-		<td class="value">
-			<div>
-				<a href="#$nav_menu" class="anchor">#</a>
-				<code><span class="php-quote">''</span></code>
-			</div>
-		</td>
-	</tr>
-	<tr data-order="selector_wp_list_pages" id="$selector_wp_list_pages">
-		<td class="attributes"><code>
-			public  
-			boolean
-		</code></td>
+				</div>
+			</td>
+			<td class="value">
+				<div>
+					<a href="#$nav_menu" class="anchor">#</a>
+					<code><span class="php-quote">''</span></code>
+				</div>
+			</td>
+		</tr>
+		<tr data-order="selector_wp_list_pages" id="$selector_wp_list_pages">
+			<td class="attributes"><code>
+				public  
+				boolean
+			</code></td>
 
-		<td class="name">
+			<td class="name">
 <var>$selector_wp_list_pages</var>
-			<div class="description short">
-				<p>Add language selector to navigation menu which was created with wp_list_pages</p>
-			</div>
+				<div class="description short">
+					<p>Add language selector to navigation menu which was created with wp_list_pages</p>
+				</div>
 
-			<div class="description detailed hidden">
-				<p>Add language selector to navigation menu which was created with wp_list_pages</p>
+				<div class="description detailed hidden">
+					<p>Add language selector to navigation menu which was created with wp_list_pages</p>
 
-					<h4>Since</h4>
-					<div class="list">
-							1.0.7<br>
-					</div>
-			</div>
-		</td>
-		<td class="value">
-			<div>
-				<a href="#$selector_wp_list_pages" class="anchor">#</a>
-				<code><span class="php-keyword1">true</span></code>
-			</div>
-		</td>
-	</tr>
-	<tr data-order="custom_css" id="$custom_css">
-		<td class="attributes"><code>
-			public  
-			string
-		</code></td>
+						<h4>Since</h4>
+						<div class="list">
+								1.0.7<br>
+						</div>
+				</div>
+			</td>
+			<td class="value">
+				<div>
+					<a href="#$selector_wp_list_pages" class="anchor">#</a>
+					<code><span class="php-keyword1">true</span></code>
+				</div>
+			</td>
+		</tr>
+		<tr data-order="custom_css" id="$custom_css">
+			<td class="attributes"><code>
+				public  
+				string
+			</code></td>
 
-		<td class="name">
+			<td class="name">
 <var>$custom_css</var>
-			<div class="description short">
-				<p>Custom CSS</p>
-			</div>
+				<div class="description short">
+					<p>Custom CSS</p>
+				</div>
 
-			<div class="description detailed hidden">
-				<p>Custom CSS</p>
+				<div class="description detailed hidden">
+					<p>Custom CSS</p>
 
-			</div>
-		</td>
-		<td class="value">
-			<div>
-				<a href="#$custom_css" class="anchor">#</a>
-				<code><span class="php-quote">''</span></code>
-			</div>
-		</td>
-	</tr>
-	<tr data-order="option" id="$option">
-		<td class="attributes"><code>
-			public  
-			string
-		</code></td>
+				</div>
+			</td>
+			<td class="value">
+				<div>
+					<a href="#$custom_css" class="anchor">#</a>
+					<code><span class="php-quote">''</span></code>
+				</div>
+			</td>
+		</tr>
+		<tr data-order="option" id="$option">
+			<td class="attributes"><code>
+				public  
+				string
+			</code></td>
 
-		<td class="name">
+			<td class="name">
 <var>$option</var>
-			<div class="description short">
-				<p>WPGlobus option key</p>
-			</div>
+				<div class="description short">
+					<p>WPGlobus option key</p>
+				</div>
 
-			<div class="description detailed hidden">
-				<p>WPGlobus option key</p>
+				<div class="description detailed hidden">
+					<p>WPGlobus option key</p>
 
-			</div>
-		</td>
-		<td class="value">
-			<div>
-				<a href="#$option" class="anchor">#</a>
-				<code><span class="php-quote">'wpglobus_option'</span></code>
-			</div>
-		</td>
-	</tr>
-	<tr data-order="option_versioning" id="$option_versioning">
-		<td class="attributes"><code>
-			public static 
-			string
-		</code></td>
+				</div>
+			</td>
+			<td class="value">
+				<div>
+					<a href="#$option" class="anchor">#</a>
+					<code><span class="php-quote">'wpglobus_option'</span></code>
+				</div>
+			</td>
+		</tr>
+		<tr data-order="option_versioning" id="$option_versioning">
+			<td class="attributes"><code>
+				public static 
+				string
+			</code></td>
 
-		<td class="name">
+			<td class="name">
 <var>$option_versioning</var>
-			<div class="description short">
-				<p>WPGlobus option versioning key</p>
-			</div>
+				<div class="description short">
+					<p>WPGlobus option versioning key</p>
+				</div>
 
-			<div class="description detailed hidden">
-				<p>WPGlobus option versioning key</p>
+				<div class="description detailed hidden">
+					<p>WPGlobus option versioning key</p>
 
-			</div>
-		</td>
-		<td class="value">
-			<div>
-				<a href="#$option_versioning" class="anchor">#</a>
-				<code><span class="php-quote">'wpglobus_option_versioning'</span></code>
-			</div>
-		</td>
-	</tr>
-	<tr data-order="option_language_names" id="$option_language_names">
-		<td class="attributes"><code>
-			public  
-			string
-		</code></td>
+				</div>
+			</td>
+			<td class="value">
+				<div>
+					<a href="#$option_versioning" class="anchor">#</a>
+					<code><span class="php-quote">'wpglobus_option_versioning'</span></code>
+				</div>
+			</td>
+		</tr>
+		<tr data-order="option_language_names" id="$option_language_names">
+			<td class="attributes"><code>
+				public  
+				string
+			</code></td>
 
-		<td class="name">
+			<td class="name">
 <var>$option_language_names</var>
-			<div class="description short">
-				<p>WPGlobus option key for $language_name</p>
-			</div>
+				<div class="description short">
+					<p>WPGlobus option key for $language_name</p>
+				</div>
 
-			<div class="description detailed hidden">
-				<p>WPGlobus option key for $language_name</p>
+				<div class="description detailed hidden">
+					<p>WPGlobus option key for $language_name</p>
 
-			</div>
-		</td>
-		<td class="value">
-			<div>
-				<a href="#$option_language_names" class="anchor">#</a>
-				<code><span class="php-quote">'wpglobus_option_language_names'</span></code>
-			</div>
-		</td>
-	</tr>
-	<tr data-order="option_en_language_names" id="$option_en_language_names">
-		<td class="attributes"><code>
-			public  
-			string
-		</code></td>
+				</div>
+			</td>
+			<td class="value">
+				<div>
+					<a href="#$option_language_names" class="anchor">#</a>
+					<code><span class="php-quote">'wpglobus_option_language_names'</span></code>
+				</div>
+			</td>
+		</tr>
+		<tr data-order="option_en_language_names" id="$option_en_language_names">
+			<td class="attributes"><code>
+				public  
+				string
+			</code></td>
 
-		<td class="name">
+			<td class="name">
 <var>$option_en_language_names</var>
-			<div class="description short">
-				<p>WPGlobus option key for $en_language_name</p>
-			</div>
+				<div class="description short">
+					<p>WPGlobus option key for $en_language_name</p>
+				</div>
 
-			<div class="description detailed hidden">
-				<p>WPGlobus option key for $en_language_name</p>
+				<div class="description detailed hidden">
+					<p>WPGlobus option key for $en_language_name</p>
 
-			</div>
-		</td>
-		<td class="value">
-			<div>
-				<a href="#$option_en_language_names" class="anchor">#</a>
-				<code><span class="php-quote">'wpglobus_option_en_language_names'</span></code>
-			</div>
-		</td>
-	</tr>
-	<tr data-order="option_locale" id="$option_locale">
-		<td class="attributes"><code>
-			public  
-			string
-		</code></td>
+				</div>
+			</td>
+			<td class="value">
+				<div>
+					<a href="#$option_en_language_names" class="anchor">#</a>
+					<code><span class="php-quote">'wpglobus_option_en_language_names'</span></code>
+				</div>
+			</td>
+		</tr>
+		<tr data-order="option_locale" id="$option_locale">
+			<td class="attributes"><code>
+				public  
+				string
+			</code></td>
 
-		<td class="name">
+			<td class="name">
 <var>$option_locale</var>
-			<div class="description short">
-				<p>WPGlobus option key for $locale</p>
-			</div>
+				<div class="description short">
+					<p>WPGlobus option key for $locale</p>
+				</div>
 
-			<div class="description detailed hidden">
-				<p>WPGlobus option key for $locale</p>
+				<div class="description detailed hidden">
+					<p>WPGlobus option key for $locale</p>
 
-			</div>
-		</td>
-		<td class="value">
-			<div>
-				<a href="#$option_locale" class="anchor">#</a>
-				<code><span class="php-quote">'wpglobus_option_locale'</span></code>
-			</div>
-		</td>
-	</tr>
-	<tr data-order="option_flags" id="$option_flags">
-		<td class="attributes"><code>
-			public  
-			string
-		</code></td>
+				</div>
+			</td>
+			<td class="value">
+				<div>
+					<a href="#$option_locale" class="anchor">#</a>
+					<code><span class="php-quote">'wpglobus_option_locale'</span></code>
+				</div>
+			</td>
+		</tr>
+		<tr data-order="option_flags" id="$option_flags">
+			<td class="attributes"><code>
+				public  
+				string
+			</code></td>
 
-		<td class="name">
+			<td class="name">
 <var>$option_flags</var>
-			<div class="description short">
-				<p>WPGlobus option key for $flag</p>
-			</div>
+				<div class="description short">
+					<p>WPGlobus option key for $flag</p>
+				</div>
 
-			<div class="description detailed hidden">
-				<p>WPGlobus option key for $flag</p>
+				<div class="description detailed hidden">
+					<p>WPGlobus option key for $flag</p>
 
-			</div>
-		</td>
-		<td class="value">
-			<div>
-				<a href="#$option_flags" class="anchor">#</a>
-				<code><span class="php-quote">'wpglobus_option_flags'</span></code>
-			</div>
-		</td>
-	</tr>
-	<tr data-order="option_post_meta_settings" id="$option_post_meta_settings">
-		<td class="attributes"><code>
-			public  
-			string
-		</code></td>
+				</div>
+			</td>
+			<td class="value">
+				<div>
+					<a href="#$option_flags" class="anchor">#</a>
+					<code><span class="php-quote">'wpglobus_option_flags'</span></code>
+				</div>
+			</td>
+		</tr>
+		<tr data-order="option_post_meta_settings" id="$option_post_meta_settings">
+			<td class="attributes"><code>
+				public  
+				string
+			</code></td>
 
-		<td class="name">
+			<td class="name">
 <var>$option_post_meta_settings</var>
-			<div class="description short">
-				<p>WPGlobus option key for meta settings</p>
-			</div>
+				<div class="description short">
+					<p>WPGlobus option key for meta settings</p>
+				</div>
 
-			<div class="description detailed hidden">
-				<p>WPGlobus option key for meta settings</p>
+				<div class="description detailed hidden">
+					<p>WPGlobus option key for meta settings</p>
 
-			</div>
-		</td>
-		<td class="value">
-			<div>
-				<a href="#$option_post_meta_settings" class="anchor">#</a>
-				<code><span class="php-quote">'wpglobus_option_post_meta_settings'</span></code>
-			</div>
-		</td>
-	</tr>
-	<tr data-order="css_editor" id="$css_editor">
-		<td class="attributes"><code>
-			public  
-			string
-		</code></td>
+				</div>
+			</td>
+			<td class="value">
+				<div>
+					<a href="#$option_post_meta_settings" class="anchor">#</a>
+					<code><span class="php-quote">'wpglobus_option_post_meta_settings'</span></code>
+				</div>
+			</td>
+		</tr>
+		<tr data-order="css_editor" id="$css_editor">
+			<td class="attributes"><code>
+				public  
+				string
+			</code></td>
 
-		<td class="name">
+			<td class="name">
 <var>$css_editor</var>
-			<div class="description short">
-				
-			</div>
+				<div class="description short">
+					
+				</div>
 
-			<div class="description detailed hidden">
-				
+				<div class="description detailed hidden">
+					
 
-			</div>
-		</td>
-		<td class="value">
-			<div>
-				<a href="#$css_editor" class="anchor">#</a>
-				<code><span class="php-quote">''</span></code>
-			</div>
-		</td>
-	</tr>
-	<tr data-order="toggle" id="$toggle">
-		<td class="attributes"><code>
-			public  
-			string
-		</code></td>
+				</div>
+			</td>
+			<td class="value">
+				<div>
+					<a href="#$css_editor" class="anchor">#</a>
+					<code><span class="php-quote">''</span></code>
+				</div>
+			</td>
+		</tr>
+		<tr data-order="toggle" id="$toggle">
+			<td class="attributes"><code>
+				public  
+				string
+			</code></td>
 
-		<td class="name">
+			<td class="name">
 <var>$toggle</var>
-			<div class="description short">
-				<p>WPGlobus devmode.</p>
-			</div>
+				<div class="description short">
+					<p>WPGlobus devmode.</p>
+				</div>
 
-			<div class="description detailed hidden">
-				<p>WPGlobus devmode.</p>
+				<div class="description detailed hidden">
+					<p>WPGlobus devmode.</p>
 
-			</div>
-		</td>
-		<td class="value">
-			<div>
-				<a href="#$toggle" class="anchor">#</a>
-				<code><span class="php-quote">'on'</span></code>
-			</div>
-		</td>
-	</tr>
-	<tr data-order="disabled_entities" id="$disabled_entities">
-		<td class="attributes"><code>
-			public  
-			array
-		</code></td>
+				</div>
+			</td>
+			<td class="value">
+				<div>
+					<a href="#$toggle" class="anchor">#</a>
+					<code><span class="php-quote">'on'</span></code>
+				</div>
+			</td>
+		</tr>
+		<tr data-order="disabled_entities" id="$disabled_entities">
+			<td class="attributes"><code>
+				public  
+				array
+			</code></td>
 
-		<td class="name">
+			<td class="name">
 <var>$disabled_entities</var>
-			<div class="description short">
-				
-			</div>
+				<div class="description short">
+					
+				</div>
 
-			<div class="description detailed hidden">
-				
+				<div class="description detailed hidden">
+					
 
-			</div>
-		</td>
-		<td class="value">
-			<div>
-				<a href="#$disabled_entities" class="anchor">#</a>
-				<code><span class="php-keyword1">array</span>()</code>
-			</div>
-		</td>
-	</tr>
-	<tr data-order="extended_options" id="$extended_options">
-		<td class="attributes"><code>
-			public  
-			array
-		</code></td>
+				</div>
+			</td>
+			<td class="value">
+				<div>
+					<a href="#$disabled_entities" class="anchor">#</a>
+					<code><span class="php-keyword1">array</span>()</code>
+				</div>
+			</td>
+		</tr>
+		<tr data-order="extended_options" id="$extended_options">
+			<td class="attributes"><code>
+				public  
+				array
+			</code></td>
 
-		<td class="name">
+			<td class="name">
 <var>$extended_options</var>
-			<div class="description short">
-				<p>WPGlobus extended options can be added via filter 'wpglobus_option_sections'</p>
-			</div>
+				<div class="description short">
+					<p>WPGlobus extended options can be added via filter 'wpglobus_option_sections'</p>
+				</div>
 
-			<div class="description detailed hidden">
-				<p>WPGlobus extended options can be added via filter 'wpglobus_option_sections'</p>
+				<div class="description detailed hidden">
+					<p>WPGlobus extended options can be added via filter 'wpglobus_option_sections'</p>
 
-					<h4>Since</h4>
-					<div class="list">
-							1.2.3<br>
-					</div>
-			</div>
-		</td>
-		<td class="value">
-			<div>
-				<a href="#$extended_options" class="anchor">#</a>
-				<code><span class="php-keyword1">array</span>()</code>
-			</div>
-		</td>
-	</tr>
-	</table>
+						<h4>Since</h4>
+						<div class="list">
+								1.2.3<br>
+						</div>
+				</div>
+			</td>
+			<td class="value">
+				<div>
+					<a href="#$extended_options" class="anchor">#</a>
+					<code><span class="php-keyword1">array</span>()</code>
+				</div>
+			</td>
+		</tr>
+			</table>
+		</div>
 
 
 
@@ -1190,11 +1177,11 @@ for use in all nav menu set value to 'all'</p>
 
 
 </div>
+	</div>
 
 	<div id="footer">
 		WPGlobus API documentation generated by <a href="http://apigen.org">ApiGen</a>
 	</div>
-</div>
 </div>
 <script src="resources/combined.js"></script>
 <script src="elementlist.js"></script>

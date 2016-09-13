@@ -10,6 +10,7 @@ cd ${DIR_SOURCES_ROOT}/wpglobus
 apigen generate \
 	--title "WPGlobus" \
 	--no-source-code \
+	--template-theme bootstrap \
 	-s . \
 	--exclude node_modules \
 	--exclude grunt \
