@@ -1,5 +1,6 @@
 {
   "name": "wpglobus/wpglobus-api-docs",
   "description": "WPGlobus API Docs",
+  "license": "GPL-3.0",
   "require": {}
 }
