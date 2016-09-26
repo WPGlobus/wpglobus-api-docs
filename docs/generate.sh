@@ -18,6 +18,7 @@ apigen generate \
 	--exclude ./lib \
 	--exclude ./unit-tests \
 	--exclude vendor/tivwp \
+	--exclude vendor/bemailr \
 	--exclude ./updater \
 	-d ${DIR_DESTINATION}/wpglobus
 

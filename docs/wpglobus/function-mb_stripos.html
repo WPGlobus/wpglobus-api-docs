@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 
-	<title>Package WPGlobus\MailChimp | WPGlobus</title>
+	<title>Function mb_stripos | WPGlobus</title>
 
 	<link rel="stylesheet" href="resources/bootstrap.min.css?973e37a8502921d56bc02bb55321f45b072b6f71">
 	<link rel="stylesheet" href="resources/style.css?49f43d3208c5d7e33fa16d36107a345bf11cc00d">
@@ -27,10 +27,10 @@
 				</form>
 
 				<ul class="nav navbar-nav">
-					<li class="active">
-<span>Package</span>					</li>
 					<li>
-<span>Class</span>					</li>
+<span>Package</span>					</li>
+					<li class="active">
+<span>Function</span>					</li>
 
 
 
@@ -47,7 +47,7 @@
 		<div id="groups">
 				<h3>Packages</h3>
 			<ul>
-					<li class="active">
+					<li>
 						<a href="package-WPGlobus.html">
 							WPGlobus<span></span>
 						</a>
@@ -87,7 +87,7 @@
 						<a href="package-WPGlobus.Compat.html">
 							Compat						</a>
 							</li>
-					<li class="active">
+					<li>
 						<a href="package-WPGlobus.MailChimp.html">
 							MailChimp						</a>
 							</li>
@@ -109,15 +109,16 @@
 
 
 		<div id="elements">
-			<h3>Classes</h3>
+
+
+
+
+
+			<h3>Functions</h3>
 			<ul>
-				<li><a href="class-WPGlobus_MailChimp_For_WP.html">WPGlobus_MailChimp_For_WP</a></li>
+				<li class="active"><a href="function-mb_stripos.html">mb_stripos</a></li>
+				<li><a href="function-mb_strtolower.html">mb_strtolower</a></li>
 			</ul>
-
-
-
-
-
 		</div>
 	</div>
 </div>
@@ -126,23 +127,64 @@
 
 <div id="right">
 	<div id="rightInner">
-<div id="content" class="package">
-	<h1>Package <a href="package-WPGlobus.html">WPGlobus</a>\MailChimp</h1>
+<div id="content" class="function">
+	<h1>Function mb_stripos</h1>
 
 
+	<div class="description">
+	<p>Finds position of first occurrence of a string within another, case insensitive</p>
+	</div>
 
-<div class="panel panel-default">
-    <div class="panel-heading"><h2>Classes summary</h2></div>
-	<table class="summary table table-bordered table-striped" id="classes">
-<tr>
-	<td class="name"><a href="class-WPGlobus_MailChimp_For_WP.html">WPGlobus_MailChimp_For_WP</a></td>
-	<td>Class WPGlobus_MailChimp_For_WP</td>
-</tr>
-	</table>
-</div>
+	<div class="alert alert-info">
+		
+		<b>Package:</b> <a href="package-WPGlobus.html">WPGlobus</a>\<a href="package-WPGlobus.Compat.html">Compat</a><br>
+				<b>Link:</b>
+				<a href="http://php.net/manual/en/function.mb-stripos.php">http://php.net/manual/en/function.mb-stripos.php</a><br>
+		<b>Located at</b>
+			includes/compat/mbstring.php
+<br>
+	</div>
 
 
+	<div class="panel panel-default">
+        <div class="panel-heading"><h2>Parameters summary</h2></div>
+		<table class="summary table table-bordered table-striped" id="parameters">
+		<tr id="$haystack">
+			<td class="name"><code>string</code></td>
+			<td class="value"><code><var>$haystack</var></code></td>
+			<td>The string from which to get the position of the first occurrence of needle</td>
+		</tr>
+		<tr id="$needle">
+			<td class="name"><code>string</code></td>
+			<td class="value"><code><var>$needle</var></code></td>
+			<td>The string to find in haystack</td>
+		</tr>
+		<tr id="$offset">
+			<td class="name"><code>integer</code></td>
+			<td class="value"><code><var>$offset</var> = <span class="php-keyword1">null</span></code></td>
+			<td>[optional] The position in haystack to start searching</td>
+		</tr>
+		<tr id="$encoding">
+			<td class="name"><code>string</code></td>
+			<td class="value"><code><var>$encoding</var> = <span class="php-keyword1">null</span> <span class="php-comment">// @formatter:on</span></code></td>
+			<td>[optional] Character encoding name to use. If it is omitted, internal character encoding is used.</td>
+		</tr>
+		</table>
+	</div>
 
+	<div class="panel panel-default">
+        <div class="panel-heading"><h2>Return value summary</h2></div>
+		<table class="summary table table-bordered table-striped" id="returns">
+		<tr>
+			<td class="name"><code>
+				integer
+			</code></td>
+			<td>
+				Return the numeric position of the first occurrence of needle in the haystack string, or false if needle is not found.
+			</td>
+		</tr>
+		</table>
+	</div>
 
 
 </div>

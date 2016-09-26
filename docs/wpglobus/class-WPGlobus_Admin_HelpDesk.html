@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 
-	<title>Class WPGlobus_Options | WPGlobus</title>
+	<title>Class WPGlobus_Admin_HelpDesk | WPGlobus</title>
 
 	<link rel="stylesheet" href="resources/bootstrap.min.css?973e37a8502921d56bc02bb55321f45b072b6f71">
 	<link rel="stylesheet" href="resources/style.css?49f43d3208c5d7e33fa16d36107a345bf11cc00d">
@@ -111,8 +111,7 @@
 		<div id="elements">
 			<h3>Classes</h3>
 			<ul>
-				<li><a href="class-WPGlobus_Language_Edit.html">WPGlobus_Language_Edit</a></li>
-				<li class="active"><a href="class-WPGlobus_Options.html">WPGlobus_Options</a></li>
+				<li class="active"><a href="class-WPGlobus_Admin_HelpDesk.html">WPGlobus_Admin_HelpDesk</a></li>
 			</ul>
 
 
@@ -128,13 +127,12 @@
 <div id="right">
 	<div id="rightInner">
 <div id="content" class="class">
-	<h1>Class WPGlobus_Options</h1>
+	<h1>Class WPGlobus_Admin_HelpDesk</h1>
 
 
 	<div class="description">
-	<p>Class WPGlobus_Options
-Based on ReduxFramework Sample Config File
-For full documentation, please visit: https://docs.reduxframework.com</p>
+	<p>Class WPGlobus_Admin_HelpDesk.
+The Contact Support form.</p>
 	</div>
 
 
@@ -149,11 +147,9 @@ For full documentation, please visit: https://docs.reduxframework.com</p>
 		
 		
 		
-		<b>Package:</b> <a href="package-WPGlobus.html">WPGlobus</a>\<a href="package-WPGlobus.Admin.html">Admin</a>\<a href="package-WPGlobus.Admin.Options.html">Options</a><br>
+		<b>Package:</b> <a href="package-WPGlobus.html">WPGlobus</a>\<a href="package-WPGlobus.Admin.html">Admin</a>\<a href="package-WPGlobus.Admin.HelpDesk.html">HelpDesk</a><br>
 
-				<b>Author:</b>
-				WPGlobus<br>
-			<b>Located at</b> includes/options/class-wpglobus-options.php		<br>
+			<b>Located at</b> includes/admin/helpdesk/class-wpglobus-admin-helpdesk.php		<br>
 	</div>
 
 
@@ -161,25 +157,25 @@ For full documentation, please visit: https://docs.reduxframework.com</p>
 		<div class="panel panel-default">
 			<div class="panel-heading"><h2>Methods summary</h2></div>
 			<table class="summary table table-bordered table-striped methods" id="methods">
-		<tr data-order="__construct" id="___construct">
+		<tr data-order="construct" id="_construct">
 
 			<td class="attributes"><code>
-				 public 
+				 public static
 				
 				
 				</code>
 			</td>
 
 			<td class="name"><div>
-			<a class="anchor" href="#___construct">#</a>
-			<code>__construct( )</code>
+			<a class="anchor" href="#_construct">#</a>
+			<code>construct( )</code>
 
 			<div class="description short">
-				<p>Constructor</p>
+				<p>Static "constructor".</p>
 			</div>
 
 			<div class="description detailed hidden">
-				<p>Constructor</p>
+				<p>Static "constructor".</p>
 
 
 
@@ -190,25 +186,25 @@ For full documentation, please visit: https://docs.reduxframework.com</p>
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="remove_redux_menu" id="_remove_redux_menu">
+		<tr data-order="set_vars" id="_set_vars">
 
 			<td class="attributes"><code>
-				 public 
+				 protected static
 				
 				
 				</code>
 			</td>
 
 			<td class="name"><div>
-			<a class="anchor" href="#_remove_redux_menu">#</a>
-			<code>remove_redux_menu( )</code>
+			<a class="anchor" href="#_set_vars">#</a>
+			<code>set_vars( )</code>
 
 			<div class="description short">
-				
+				<p>Set class variables.</p>
 			</div>
 
 			<div class="description detailed hidden">
-				
+				<p>Set class variables.</p>
 
 
 
@@ -219,25 +215,25 @@ For full documentation, please visit: https://docs.reduxframework.com</p>
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="initSettings" id="_initSettings">
+		<tr data-order="set_hooks" id="_set_hooks">
 
 			<td class="attributes"><code>
-				 public 
+				 protected static
 				
 				
 				</code>
 			</td>
 
 			<td class="name"><div>
-			<a class="anchor" href="#_initSettings">#</a>
-			<code>initSettings( )</code>
+			<a class="anchor" href="#_set_hooks">#</a>
+			<code>set_hooks( )</code>
 
 			<div class="description short">
-				
+				<p>Setup actions and filters.</p>
 			</div>
 
 			<div class="description detailed hidden">
-				
+				<p>Setup actions and filters.</p>
 
 
 
@@ -248,134 +244,123 @@ For full documentation, please visit: https://docs.reduxframework.com</p>
 			</div>
 			</div></td>
 		</tr>
-		<tr data-order="add_custom_redux_fields" id="_add_custom_redux_fields">
+		<tr data-order="add_menu" id="_add_menu">
 
 			<td class="attributes"><code>
-				 public 
-				string
+				 public static
+				
 				
 				</code>
 			</td>
 
 			<td class="name"><div>
-			<a class="anchor" href="#_add_custom_redux_fields">#</a>
-			<code>add_custom_redux_fields( <span>string <var>$file</var></span>, <span>array <var>$field</var></span> )</code>
+			<a class="anchor" href="#_add_menu">#</a>
+			<code>add_menu( )</code>
 
 			<div class="description short">
-				<p>Tell Redux where to find our custom fields</p>
+				<p>Add a hidden admin menu item.
+It will become visible in @see WPGlobus_Admin_HelpDesk::show_submenu</p>
 			</div>
 
 			<div class="description detailed hidden">
-				<p>Tell Redux where to find our custom fields</p>
+				<p>Add a hidden admin menu item.
+It will become visible in @see WPGlobus_Admin_HelpDesk::show_submenu</p>
 
 
-					<h4>Parameters</h4>
-					<div class="list"><dl>
-						<dt><var>$file</var></dt>
-						<dd>Path of the field class where Redux is looking for it</dd>
-						<dt><var>$field</var></dt>
-						<dd>Field parameters</dd>
-					</dl></div>
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="show_submenu" id="_show_submenu">
+
+			<td class="attributes"><code>
+				 public static
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_show_submenu">#</a>
+			<code>show_submenu( )</code>
+
+			<div class="description short">
+				<p>Make the admin menu item visible.
+This is a workaround because the WPGlobus options panel is made by ReduxFramework.</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Make the admin menu item visible.
+This is a workaround because the WPGlobus options panel is made by ReduxFramework.</p>
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="helpdesk_page" id="_helpdesk_page">
+
+			<td class="attributes"><code>
+				 public static
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_helpdesk_page">#</a>
+			<code>helpdesk_page( )</code>
+
+			<div class="description short">
+				<p>The admin page.</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>The admin page.</p>
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="get_data" id="_get_data">
+
+			<td class="attributes"><code>
+				 protected static
+				array
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_get_data">#</a>
+			<code>get_data( )</code>
+
+			<div class="description short">
+				<p>Collect data for the beacon.</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Collect data for the beacon.</p>
+
+
 
 					<h4>Returns</h4>
 					<div class="list">
-						string<br>Path of the field class where we want Redux to find it
+						array
 					</div>
-
-
-					<h4>Since</h4>
-					<div class="list">
-							1.2.2<br>
-					</div>
-
-
-			</div>
-			</div></td>
-		</tr>
-		<tr data-order="setSections" id="_setSections">
-
-			<td class="attributes"><code>
-				 public 
-				
-				
-				</code>
-			</td>
-
-			<td class="name"><div>
-			<a class="anchor" href="#_setSections">#</a>
-			<code>setSections( )</code>
-
-			<div class="description short">
-				
-			</div>
-
-			<div class="description detailed hidden">
-				
-
-
-
-
-
-
-
-			</div>
-			</div></td>
-		</tr>
-		<tr data-order="setHelpTabs" id="_setHelpTabs">
-
-			<td class="attributes"><code>
-				 public 
-				
-				
-				</code>
-			</td>
-
-			<td class="name"><div>
-			<a class="anchor" href="#_setHelpTabs">#</a>
-			<code>setHelpTabs( )</code>
-
-			<div class="description short">
-				
-			</div>
-
-			<div class="description detailed hidden">
-				
-
-
-
-
-
-
-
-			</div>
-			</div></td>
-		</tr>
-		<tr data-order="setArguments" id="_setArguments">
-
-			<td class="attributes"><code>
-				 public 
-				
-				
-				</code>
-			</td>
-
-			<td class="name"><div>
-			<a class="anchor" href="#_setArguments">#</a>
-			<code>setArguments( )</code>
-
-			<div class="description short">
-				<p>All the possible arguments for Redux.
-For full documentation on arguments, please refer to:
-https://github.com/ReduxFramework/ReduxFramework/wiki/Arguments</p>
-			</div>
-
-			<div class="description detailed hidden">
-				<p>All the possible arguments for Redux.
-For full documentation on arguments, please refer to:
-https://github.com/ReduxFramework/ReduxFramework/wiki/Arguments</p>
-
-
-
 
 
 
@@ -393,104 +378,133 @@ https://github.com/ReduxFramework/ReduxFramework/wiki/Arguments</p>
 
 
 
+		<div class="panel panel-default">
+            <div class="panel-heading"><h2>Constants summary</h2></div>
+			<table class="summary table table-bordered table-striped constants" id="constants">
+			<tr data-order="ICON_CLASS" id="ICON_CLASS">
+
+				<td class="attributes"><code>string</code></td>
+				<td class="name">
+					<code>
+<b>ICON_CLASS</b>					</code>
+
+					<div class="description short">
+						<p>CSS class for the menu icon.</p>
+					</div>
+
+					<div class="description detailed hidden">
+						<p>CSS class for the menu icon.</p>
+
+					</div>
+				</td>
+				<td class="value">
+					<div>
+						<a href="#ICON_CLASS" class="anchor">#</a>
+						<code><span class="php-quote">'dashicons dashicons-before dashicons-format-chat'</span></code>
+					</div>
+				</td>
+			</tr>
+			</table>
+		</div>
+
 
 
 
 		<div class="panel panel-default">
             <div class="panel-heading"><h2>Properties summary</h2></div>
 			<table class="summary table table-bordered table-striped properties" id="properties">
-		<tr data-order="args" id="$args">
+		<tr data-order="page_title" id="$page_title">
 			<td class="attributes"><code>
-				public  
-				array
+				public static 
+				string
 			</code></td>
 
 			<td class="name">
-<var>$args</var>
+<var>$page_title</var>
 				<div class="description short">
-					
+					<p>Admin page title.</p>
 				</div>
 
 				<div class="description detailed hidden">
-					
+					<p>Admin page title.</p>
 
 				</div>
 			</td>
 			<td class="value">
 				<div>
-					<a href="#$args" class="anchor">#</a>
-					<code><span class="php-keyword1">array</span>()</code>
-				</div>
-			</td>
-		</tr>
-		<tr data-order="sections" id="$sections">
-			<td class="attributes"><code>
-				public  
-				array
-			</code></td>
-
-			<td class="name">
-<var>$sections</var>
-				<div class="description short">
-					
-				</div>
-
-				<div class="description detailed hidden">
-					
-
-				</div>
-			</td>
-			<td class="value">
-				<div>
-					<a href="#$sections" class="anchor">#</a>
-					<code><span class="php-keyword1">array</span>()</code>
-				</div>
-			</td>
-		</tr>
-		<tr data-order="theme" id="$theme">
-			<td class="attributes"><code>
-				public  
-				
-			</code></td>
-
-			<td class="name">
-<var>$theme</var>
-				<div class="description short">
-					
-				</div>
-
-				<div class="description detailed hidden">
-					
-
-				</div>
-			</td>
-			<td class="value">
-				<div>
-					<a href="#$theme" class="anchor">#</a>
+					<a href="#$page_title" class="anchor">#</a>
 					<code></code>
 				</div>
 			</td>
 		</tr>
-		<tr data-order="ReduxFramework" id="$ReduxFramework">
+		<tr data-order="menu_title" id="$menu_title">
 			<td class="attributes"><code>
-				public  
-				
+				protected static 
+				string
 			</code></td>
 
 			<td class="name">
-<var>$ReduxFramework</var>
+<var>$menu_title</var>
 				<div class="description short">
-					
+					<p>Admin menu title.</p>
 				</div>
 
 				<div class="description detailed hidden">
-					
+					<p>Admin menu title.</p>
 
 				</div>
 			</td>
 			<td class="value">
 				<div>
-					<a href="#$ReduxFramework" class="anchor">#</a>
+					<a href="#$menu_title" class="anchor">#</a>
+					<code></code>
+				</div>
+			</td>
+		</tr>
+		<tr data-order="menu_tooltip" id="$menu_tooltip">
+			<td class="attributes"><code>
+				protected static 
+				string
+			</code></td>
+
+			<td class="name">
+<var>$menu_tooltip</var>
+				<div class="description short">
+					<p>Admin menu tooltip.</p>
+				</div>
+
+				<div class="description detailed hidden">
+					<p>Admin menu tooltip.</p>
+
+				</div>
+			</td>
+			<td class="value">
+				<div>
+					<a href="#$menu_tooltip" class="anchor">#</a>
+					<code></code>
+				</div>
+			</td>
+		</tr>
+		<tr data-order="admin_page_url" id="$admin_page_url">
+			<td class="attributes"><code>
+				public static 
+				string
+			</code></td>
+
+			<td class="name">
+<var>$admin_page_url</var>
+				<div class="description short">
+					<p>Admin page URL.</p>
+				</div>
+
+				<div class="description detailed hidden">
+					<p>Admin page URL.</p>
+
+				</div>
+			</td>
+			<td class="value">
+				<div>
+					<a href="#$admin_page_url" class="anchor">#</a>
 					<code></code>
 				</div>
 			</td>
