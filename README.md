@@ -5,4 +5,4 @@ Click [here](https://wpglobus.github.io/wpglobus-api-docs/) to read the docs...
 
 _Sincerely,_
 
-_The [WPGlobus](http://www.wpglobus.com/) Team_
+_The [WPGlobus](https://wpglobus.com/) Team_
